@@ -31,7 +31,7 @@ export default function App() {
   }
     return (
         <div>       
-            <button onClick={SwitchGameState} className="video-game-button">{gameRunning? "Pause" :"Play" }</button>
+            <button onClick={handleClick} className="video-game-button">{gameRunning? "Pause" :"Play" }</button>
         </div>
   )
 }
