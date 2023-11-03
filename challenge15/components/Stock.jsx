@@ -81,7 +81,7 @@ export default function Stock({stock}) {
                     <p>Current Price</p>
                 </div>
                 <div>
-                    <p>Previous Close: ${prevClosingPrice}</p>
+                    <p>Previous Close: ${prevClosingPrice.toFixed(2)}</p>
                 </div>       
         </div>   
     )
