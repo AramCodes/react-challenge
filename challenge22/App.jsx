@@ -43,6 +43,7 @@ export default function App() {
 
 	}
 
+	//file uploaders should be uncontrolled
 	return (
 		<form onSubmit={handleSubmit}>
 			<TopText />
