@@ -53,6 +53,21 @@ export default function PosterSection({date, festivalData}) {
 			}
 		})
 	
+	
+        // quicker more consise way to dynamically creat p tags
+		// 	const bandElements = festivalData.filter(band => band.date === date)
+			// .sort((a, b)=> a.importance - b.importance)
+			// .map(band => {
+				
+			// 	const fonts = {
+			// 		1: "giant",
+			// 		2: "big",
+			// 		3: "medium",
+			// 		4: "small"
+			// 	}
+				
+			// 	return <p className={fonts[band.importance]} key={nanoid()}>{band.name}</p>
+			// })
 		return (
 			<div className="lineup-container">
 				<div className="day-container">
